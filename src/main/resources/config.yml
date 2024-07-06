@@ -1,0 +1,17 @@
+file-version: 1
+permissions:
+  message: "privatemessages.message"
+  reply: "privatemessages.reply"
+messages:
+  # For receiver name use <Receiver>
+  # For sender name use <Sender>
+  # For the message use <Message>
+  message_usage: "Por favor, usa /message <jugador> <mensaje>."
+  message_self: "No te puedes enviar mensajes a ti mismo."
+  message_first: "Para usar este comando, tienes que primero hablar con otro jugador con /message <jugador> <mensaje>"
+  reply_usage: "Por favor, usa /reply <mensaje>."
+  player_not_found: "El jugador <Receiver> no se encuentra conectado"
+  player_disconnect: "El jugador con el que estabas hablando no se encuentra conectado."
+format:
+  sender: "Tu -> <Receiver>: <Message>"
+  receiver: "<Sender> -> Ti: <Message>"
