@@ -2,6 +2,7 @@ file-version: 1
 permissions:
   message: "privatemessages.message"
   reply: "privatemessages.reply"
+last_message_reply: false
 messages:
   # For receiver name use <Receiver>
   # For sender name use <Sender>
