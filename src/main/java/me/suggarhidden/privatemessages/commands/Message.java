@@ -70,8 +70,8 @@ public class Message implements SimpleCommand {
     List<String> players = new ArrayList<>();
     String[] args = invocation.arguments();
 
-    if (args.length > 1) {
-      String filter = args[1].toLowerCase();
+    if (args.length == 1) {
+      String filter = args[0].toLowerCase();
 
       PrivateMessages.getProxy().getAllPlayers().forEach(p -> {
         if (p.getUsername().toLowerCase().startsWith(filter)) {
